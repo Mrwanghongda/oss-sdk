@@ -1,0 +1,24 @@
+{
+    "name": "mrwanghongda/oss-sdk",
+    "description": "An SDK tool class that collects cloud storage",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mrwanghongda\\OssSdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ninetySeven.",
+            "email": "wanghongda9577@sina.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "qiniu/php-sdk": "^7.4",
+        "qcloud/cos-sdk-v5": ">=2.0",
+        "aliyuncs/oss-sdk-php": "^2.4.0",
+        "phpunit/phpunit": "^5.0|^6.0|^9.3.3"
+    }
+}
